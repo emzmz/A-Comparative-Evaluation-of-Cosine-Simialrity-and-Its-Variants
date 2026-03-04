@@ -51,8 +51,9 @@ Two normalization strategies are explored:
 
 * Global Min–Max normalization
 * Local Min–Max normalization
-
+  
 Global normalization preserves the overall vector structure and distorts relative distances less than local normalization.
+
 ---
 
 ### Intrinsic Evaluation
@@ -116,6 +117,14 @@ Results show:
 4. Metric performance varies depending on whether evaluation is intrinsic or task-driven.
 
 ---
+
+### Future works
+
+Several extensions can further strengthen this research:
+
+* Expansion to additional similarity metrics, including non-cosine-based measures.
+* Evaluation across additional downstream tasks to assess metric robustness in broader application domains.
+* Computational efficiency analysis, including runtime complexity, memory consumption, and scalability across large vocabularies and embedding sizes.
 
 ### Conclusion
 
